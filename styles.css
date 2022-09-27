@@ -1,0 +1,149 @@
+body{
+    background-color: rgb(246, 253, 250);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+header{
+    animation: fadeIn 5s; 
+}
+
+#home_heading1{
+    font-size:5rem;
+    font-family: Georgia, serif;
+    margin-bottom: auto;
+
+}
+ul{
+    background-color: black;
+    border-radius: 25px;
+    
+}
+
+.nav{
+    color:white;
+    font-size: 30px;
+}
+
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 40%;
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+a:hover{
+    color: red;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-style: oblique;
+    font-family: Georgia, serif;
+    font-size: 100px;
+
+}
+.main p {
+    color: white;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    text-align: center;
+    font-family: Georgia, serif;
+    
+    color: white;
+    border-radius: 25px;
+}
+
+.menu{
+    background-color: grey;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 10px;
+    
+}
+
+footer{
+    display: flex;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+
+
+}
+footer div {
+    flex: 1;
+}
+
+.main{
+    background-color: grey;
+    border-radius: 25px;
+    background-image: url("/hair.jpg");
+    background-size: cover;
+}
+
+
+.menu {
+    width: 50%;
+    height: 30%;
+    
+}
+.menu_img{
+    text-align: center;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.footer_logo{
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.copyright {
+    text-align: right;
+    margin-right: 10%;
+    margin-top: 5%;
+
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
